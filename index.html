@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUDBears</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="test.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<!-- Main Menu --> 
+<body>
+  <div class="container">
+    <div class="navbar"> 
+        <a target="_self" href="index.html" target="_blank">
+            <img src="images/fudbear logo.png" class="logo"/></a>
+        <nav>
+            <ul id="menuList">
+
+                  <!-- navbar links --> 
+                <li><a href="https://opensea.io/assets/ethereum/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/71040940220257032727372394383390381478316868588130753090903569649924758287797">Buy A Bear</a></li>
+                <li><a target="_self" href="roadmap.html">Roadmap</a></li>
+                <li><a target="_self" href="aboutus.html">About Us</a></li>
+                <li><a href="https://joshburleson.itch.io/">Demo</a></li>
+                <li><a href=""><div class="add-btn">
+                <img src="images/connect wallet.png" alt="" onclick = "connect ()">
+                <p><SMALL>Connect Wallet</SMALL></p></a></li>
+
+
+                  <!-- Socials -->  
+                 <a target="_self" href="https://twitter.com/FUDBears" target="_blank">
+            <img src="images/tw.png" class="twitter"/></a>
+            <a target="_self" href="https://discord.gg/p6KqqN3aVJ" target="_blank">
+                <img src="images/icons8-discord-100.png" class="Discord"/></a>
+                    <a target="_self" href="https://telegram.org/" target="_blank">
+                        <img src="images/icons8-telegram-app-100.png" class="Telegram"/></a>
+
+   
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="togglemenu ()">
+        </div>
+
+
+          <!-- Body message / images --> 
+        <div class="row">
+            <div class="col-1">
+                <h2>Are You Ready?<br>Let the FUD Grow</h2>  
+                <h3>Built on the Blockchain</h3>
+                <p>P2W gaming mechanics</p>
+                <h4>Will you be the top bear?</h4>
+                <button onclick="window.location.href = 'mint.html';">MINT</button>
+            </div>
+            <div class="col-2">
+                <img src="images/forest fire.png" class="controller">
+                <div class="color-box"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Partners Section --> 
+    <section class="Partners">
+        <h1>PARTNERS</h1>
+        <br>
+        <br>
+        <a target="_self" href="https://www.daoacademy.net/" target="_blank">
+            <img src="images/DAO Logo.png" class="daoacademy"/></a>
+    </section>
+
+
+    <!-- JAVA --> 
+    <script>
+
+     var menuList = document.getElementById("menuList");
+     
+     menuList.style.maxHeight = "0px"
+
+     function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+
+        {
+            menuList.style.maxHeight = "330px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+     }
+   
+    </script>
+
+    
+</body>
+</html>
